@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="飞机大乱斗">
+      <UniqueIdentifier>{96f6bfae-23f1-41ba-b666-e6eb7fc4b1f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="飞机大乱斗\场景类">
+      <UniqueIdentifier>{a21856e7-0f6c-4e77-a931-b90f7ef0ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="飞机大乱斗\场景类\对话框">
+      <UniqueIdentifier>{57e36786-8454-4e1b-8b21-9b8da7fb208b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="飞机大乱斗\实体基类">
+      <UniqueIdentifier>{aeadd450-4b92-42a2-b7f5-a5dc10a18c9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="飞机大乱斗\实体基类\主角">
+      <UniqueIdentifier>{13784a06-089b-4da5-961d-53ab81967dd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="飞机大乱斗\场景类\无尽模式">
+      <UniqueIdentifier>{54b39637-3ad4-4392-8f4c-742ad748b545}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="飞机大乱斗\实体基类\子弹">
+      <UniqueIdentifier>{bc23ab40-791a-4469-a623-c5ee31297f33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="飞机大乱斗\实体基类\敌人">
+      <UniqueIdentifier>{9261c33f-2f74-4d1b-b2df-1fa7f382290c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="飞机大乱斗\实体基类\地图">
+      <UniqueIdentifier>{62661a6d-9ea4-420e-9dbc-57bbdb0f26f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="飞机大乱斗\实体基类\层">
+      <UniqueIdentifier>{fd582657-7035-4966-9702-43463a864784}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="飞机大乱斗\实体基类\道具">
+      <UniqueIdentifier>{13168831-3fcd-4ce4-a66a-2f9541616d06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="飞机大乱斗\实体基类\分数金币">
+      <UniqueIdentifier>{701e2396-6ac7-4c2b-81e3-155bea035f0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="飞机大乱斗\场景类\签到">
+      <UniqueIdentifier>{56ecc9ce-6faa-4368-a557-536e5327d981}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="飞机大乱斗\场景类\故事模式">
+      <UniqueIdentifier>{62c0a6bf-2971-4d07-848b-8895d5dafa3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="飞机大乱斗\场景类\故事模式\关卡选择">
+      <UniqueIdentifier>{44454a56-c54a-448b-bd7c-105b8548f183}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="飞机大乱斗\My2048">
+      <UniqueIdentifier>{d4999cf0-fd1f-4c82-81d4-2e42993b0cea}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LoadScene.cpp">
+      <Filter>飞机大乱斗\场景类</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MainScene.cpp">
+      <Filter>飞机大乱斗\场景类</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SetScene.cpp">
+      <Filter>飞机大乱斗\场景类</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MyHanagerScene.cpp">
+      <Filter>飞机大乱斗\场景类</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PopScene.cpp">
+      <Filter>飞机大乱斗\场景类\对话框</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PlayerScene.cpp">
+      <Filter>飞机大乱斗\场景类\无尽模式</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NewPlayer.cpp">
+      <Filter>飞机大乱斗\实体基类\主角</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NewBullet.cpp">
+      <Filter>飞机大乱斗\实体基类\子弹</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NewEnemy.cpp">
+      <Filter>飞机大乱斗\实体基类\敌人</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BulletEnemy.cpp">
+      <Filter>飞机大乱斗\实体基类\敌人</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HMap.cpp">
+      <Filter>飞机大乱斗\实体基类\地图</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HPauseLayer.cpp">
+      <Filter>飞机大乱斗\实体基类\层</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UniqueSkill.cpp">
+      <Filter>飞机大乱斗\实体基类\道具</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Gems.cpp">
+      <Filter>飞机大乱斗\实体基类\道具</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SignLayer.cpp">
+      <Filter>飞机大乱斗\场景类\签到</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameOver.cpp">
+      <Filter>飞机大乱斗\实体基类\层</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LevelScene.cpp">
+      <Filter>飞机大乱斗\场景类\故事模式</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LevelNewPlayer.cpp">
+      <Filter>飞机大乱斗\场景类\故事模式</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LevelNewBullet.cpp">
+      <Filter>飞机大乱斗\场景类\故事模式</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LevelNewEnemy.cpp">
+      <Filter>飞机大乱斗\场景类\故事模式</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LevelBulletEnemy.cpp">
+      <Filter>飞机大乱斗\场景类\故事模式</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LevelGems.cpp">
+      <Filter>飞机大乱斗\场景类\故事模式</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LevelUniqueSkill.cpp">
+      <Filter>飞机大乱斗\场景类\故事模式</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LevelSelect.cpp">
+      <Filter>飞机大乱斗\场景类\故事模式\关卡选择</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LostGame.cpp">
+      <Filter>飞机大乱斗\实体基类\层</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MyGame.cpp">
+      <Filter>飞机大乱斗\My2048</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Card.cpp">
+      <Filter>飞机大乱斗\My2048</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RnakLayer.cpp">
+      <Filter>飞机大乱斗\场景类\对话框</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LoadScene.h">
+      <Filter>飞机大乱斗\场景类</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MainScene.h">
+      <Filter>飞机大乱斗\场景类</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SetScene.h">
+      <Filter>飞机大乱斗\场景类</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MyHanagerScene.h">
+      <Filter>飞机大乱斗\场景类</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PopScene.h">
+      <Filter>飞机大乱斗\场景类\对话框</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PlayerScene.h">
+      <Filter>飞机大乱斗\场景类\无尽模式</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NewPlayer.h">
+      <Filter>飞机大乱斗\实体基类\主角</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HPlayer.h">
+      <Filter>飞机大乱斗\实体基类\主角</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NewBullet.h">
+      <Filter>飞机大乱斗\实体基类\子弹</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NewEnemy.h">
+      <Filter>飞机大乱斗\实体基类\敌人</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BulletEnemy.h">
+      <Filter>飞机大乱斗\实体基类\敌人</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HMap.h">
+      <Filter>飞机大乱斗\实体基类\地图</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HPauseLayer.h">
+      <Filter>飞机大乱斗\实体基类\层</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UniqueSkill.h">
+      <Filter>飞机大乱斗\实体基类\道具</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Gems.h">
+      <Filter>飞机大乱斗\实体基类\道具</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SignLayer.h">
+      <Filter>飞机大乱斗\场景类\签到</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameOver.h">
+      <Filter>飞机大乱斗\实体基类\层</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LevelScene.h">
+      <Filter>飞机大乱斗\场景类\故事模式</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LevelNewPlayer.h">
+      <Filter>飞机大乱斗\场景类\故事模式</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LevelNewBullet.h">
+      <Filter>飞机大乱斗\场景类\故事模式</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LevelNewEnemy.h">
+      <Filter>飞机大乱斗\场景类\故事模式</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LevelBulletEnemy.h">
+      <Filter>飞机大乱斗\场景类\故事模式</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LevelGems.h">
+      <Filter>飞机大乱斗\场景类\故事模式</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LevelUniqueSkill.h">
+      <Filter>飞机大乱斗\场景类\故事模式</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LevelSelect.h">
+      <Filter>飞机大乱斗\场景类\故事模式\关卡选择</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LostGame.h">
+      <Filter>飞机大乱斗\实体基类\层</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MyGame.h">
+      <Filter>飞机大乱斗\My2048</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Card.h">
+      <Filter>飞机大乱斗\My2048</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RnakLayer.h">
+      <Filter>飞机大乱斗\场景类\对话框</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,31 @@
+# view AndroidManifest.xml #generated:23
+-keep class com.sina.weibo.sdk.component.WeiboSdkBrowser { <init>(...); }
+
+# view AndroidManifest.xml #generated:29
+-keep class com.sina.weibo.sdk.net.DownloadService { <init>(...); }
+
+# view AndroidManifest.xml #generated:46
+-keep class com.tencent.connect.common.AssistActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:45
+-keep class com.tencent.plus.ImageActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:32
+-keep class com.tencent.tauth.AuthActivity { <init>(...); }
+
+# view res/layout/umeng_socialize_post_share.xml #generated:2
+# view sw550dp-large-v13\res/layout-sw550dp-large-v13/umeng_socialize_post_share.xml #generated:2
+-keep class com.umeng.socialize.editorpage.KeyboardListenRelativeLayout { <init>(...); }
+
+# view AndroidManifest.xml #generated:50
+-keep class com.umeng.socialize.editorpage.ShareActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:14
+-keep class org.cocos.NewCocos.WBShareActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:59
+-keep class org.cocos.NewCocos.wxapi.WXEntryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:8
+-keep class org.cocos2dx.cpp.AppActivity { <init>(...); }
+

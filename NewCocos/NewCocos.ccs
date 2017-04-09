@@ -1,0 +1,99 @@
+<Solution>
+  <PropertyGroup Name="NewCocos" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="LevelSelect">
+          <Image Name="BACKGROUND.png" />
+          <Image Name="CHAPTER1.png" />
+          <Image Name="CHAPTER2.png" />
+          <Image Name="CHAPTER3.png" />
+          <Image Name="gif1.png" />
+          <Image Name="gif2.png" />
+          <Image Name="gif3.png" />
+          <Image Name="go.png" />
+          <Image Name="go2.png" />
+          <Image Name="lock.png" />
+          <Image Name="lock2.png" />
+          <Image Name="Xworld.png" />
+          <Image Name="Yworld.png" />
+          <Image Name="Zworld.png" />
+        </Folder>
+        <Folder Name="Main">
+          <Image Name="endless.png" />
+          <Image Name="endless_down.png" />
+          <Image Name="Music.png" />
+          <Image Name="Music2.png" />
+          <Image Name="Music3.png" />
+          <Image Name="my hangar.png" />
+          <Image Name="myhangar_2.png" />
+          <Image Name="option.png" />
+          <Image Name="option_2.png" />
+          <Image Name="Plane.png" />
+          <Image Name="Rank_list.png" />
+          <Image Name="Rank_list2.png" />
+          <Image Name="record.png" />
+          <Image Name="share.png" />
+          <Image Name="share2.png" />
+          <Image Name="Sign_in.png" />
+          <Image Name="Sign_in2.png" />
+          <Image Name="story mod.png" />
+          <Image Name="story_down.png" />
+        </Folder>
+        <Folder Name="MyHanger">
+          <Image Name="fly.png" />
+          <Image Name="plane1.png" />
+          <Image Name="plane11.png" />
+          <Image Name="plane5.png" />
+        </Folder>
+        <Folder Name="Seting">
+          <Image Name="about.png" />
+          <Image Name="about_2.png" />
+          <Image Name="button.png" />
+          <Image Name="gamesound.png" />
+          <Image Name="music sound.png" />
+          <Image Name="RESET1.png" />
+          <Image Name="RESET2.png" />
+          <Image Name="respondse rate.png" />
+          <Image Name="set.png" />
+          <Image Name="tiao.png" />
+        </Folder>
+        <Folder Name="Store">
+          <Image Name="beijing.png" />
+          <Image Name="button1.png" />
+          <Image Name="button1_1.png" />
+          <Image Name="button2.png" />
+          <Image Name="BUY.png" />
+          <Image Name="BUY_d.png" />
+          <Image Name="player1_1.png" />
+          <Image Name="player1_2.png" />
+          <Image Name="player2_1.png" />
+          <Image Name="player2_2.png" />
+          <Image Name="player3_1.png" />
+          <Image Name="player3_2.png" />
+          <Image Name="player4_1.png" />
+          <Image Name="player4_2.png" />
+          <Image Name="SELL.png" />
+          <Image Name="SELL_d.png" />
+        </Folder>
+        <Project Name="AboutLayer.csd" Type="Layer" />
+        <Image Name="Back.png" />
+        <Image Name="Back2.png" />
+        <TTF Name="KA1.TTF" />
+        <Project Name="LevelScene.csd" Type="Scene" />
+        <Image Name="loading.png" />
+        <Project Name="LoadingScene.csd" Type="Scene" />
+        <Image Name="MainBackground.jpg" />
+        <Project Name="MainScene.csd" Type="Scene" />
+        <TTF Name="Minecraft.ttf" />
+        <PlistParticleFile Name="particle_boom.plist" />
+        <Image Name="rank.jpg" />
+        <Image Name="rank.png" />
+        <Project Name="RankScene.csd" Type="Scene" />
+        <Image Name="SettingBackgtound.jpg" />
+        <Project Name="SettingScene.csd" Type="Scene" />
+        <Project Name="StoreScene.csd" Type="Scene" />
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>
